@@ -16,8 +16,8 @@ public class RemoveLowGPAStudentsTest {
     public void testRemoveLowGPAStudents() {
         // Creating an ArrayList of Students
         ArrayList<Student> studentList = new ArrayList<>();
-        studentList.add(new Student("Teja", "sai", 3.5));
-        studentList.add(new Student("Sai", "kumar", 3.2));
+        studentList.add(new Student("Mohan", "shankur", 3.5));
+        studentList.add(new Student("Sandeep", "kumar", 3.2));
         studentList.add(new Student("Venkat", "bonala", 3.8));
         studentList.add(new Student("Siva", "sai", 4.0));
 

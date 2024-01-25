@@ -15,17 +15,17 @@ public class TraverseListTest {
     public void testTraverseListRegularForLoop() {
         ArrayList<String> car = new ArrayList<>();
         car.add("Toyota");
-        car.add("Chevy");
-        car.add("Benz");
-        car.add("Opel");
+        car.add("Camry");
+        car.add("Bmw");
+        car.add("Ford");
 
         List<String> result = t.traverseListRegularForLoop(car);
 
         List<String> expectedList = new ArrayList<>();
         expectedList.add("Toyota");
-        expectedList.add("Chevy");
-        expectedList.add("Benz");
-        expectedList.add("Opel");
+        expectedList.add("Camry");
+        expectedList.add("Bmw");
+        expectedList.add("Ford");
 
         assertEquals(expectedList, result);
     }
@@ -34,17 +34,17 @@ public class TraverseListTest {
     public void testTraverseListEnhancedForLoop() {
         ArrayList<String> car = new ArrayList<>();
         car.add("Toyota");
-        car.add("Chevy");
-        car.add("Benz");
-        car.add("Opel");
+        car.add("Camry");
+        car.add("Bmw");
+        car.add("Ford");
 
         List<String> result = t.traverseListEnhancedForLoop(car);
 
         List<String> expectedList = new ArrayList<>();
         expectedList.add("Toyota");
-        expectedList.add("Chevy");
-        expectedList.add("Benz");
-        expectedList.add("Opel");
+        expectedList.add("Camry");
+        expectedList.add("Bmw");
+        expectedList.add("Ford");
 
         assertEquals(expectedList, result);
     }
