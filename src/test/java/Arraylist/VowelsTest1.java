@@ -1,6 +1,6 @@
-package strings;
+package Arraylist;
 
-public class VowelsTest {
+public class VowelsTest1 {
 
     public static void main(String[] args) {
         testCountVowels();
