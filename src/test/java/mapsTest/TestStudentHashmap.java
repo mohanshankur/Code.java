@@ -1,6 +1,6 @@
 package mapsTest;
 
-import Arraylist.Student;
+import arraylist.Student;
 import maps.StudentHashmap;
 import org.junit.Test;
 

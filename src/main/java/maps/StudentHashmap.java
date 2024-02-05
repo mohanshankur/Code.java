@@ -1,7 +1,7 @@
 
 package maps;
 import java.util.HashMap;
-import Arraylist.Student;
+import arraylist.Student;
 public class StudentHashmap {
 
 
