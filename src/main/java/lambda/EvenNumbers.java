@@ -14,11 +14,6 @@ import java.util.stream.Collectors;
                     .collect(Collectors.toList()); // Collect the results into a list
         }
 
-        public static void main(String[] args) {
-            List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-            List<Integer> doubledOddNumbers = doubleOddNumbers(numbers);
-            System.out.println("Doubled odd numbers: " + doubledOddNumbers);
-        }
     }
 
 

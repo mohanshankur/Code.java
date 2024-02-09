@@ -1,5 +1,6 @@
 package lambdaTest;
 
+import lambda.EvenNumbers;
 import org.junit.Test;
 import java.util.Arrays;
 import java.util.List;
@@ -16,6 +17,7 @@ import static org.junit.Assert.assertEquals;
             List<Integer> expectedOutput = Arrays.asList(2, 6, 10, 14, 18);
 
             // Calling the method to be tested
+            EvenNumbers EvenNumberDoubler = null;
             List<Integer> actualOutput = EvenNumberDoubler.doubleOddNumbers(input);
 
             // Asserting that the actual output matches the expected output
